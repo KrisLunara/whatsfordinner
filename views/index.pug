@@ -1,5 +1,29 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  div.container
+    div.card
+      div.card-header
+        div.backdrop
+        div.card-title M-n-Ed's Pizzeria
+        img.card-header-image(src='https://www.meneds.com/wp-content/uploads/2018/12/MENPizza_AllMeat.png')
+      div.card-body
+        div.edit
+          a(href='') Edit
+        div.card-details
+          div.category Pizza
+          div.rating
+            span &#X2b50
+            span &#X2b50
+            span &#X2b50
+            span &#X2b50
+        div.description
+          //Placeholder for description
+          | lorem mollis aliquam ut porttitor leo
+          | a diam sollicitudin tempor id eu nisl
+          | nunc mi ipsum faucibus vitae aliquet
+          | nec ullamcorper sit amet risus nullam
+          | eget felis eget nunc lobortis mattis
+          | aliquam faucibus purus in massa
+          | asdfghjkl asdfghjkl asdfghjkl asdfg
+          | asdfghjkl asdfghjkl asdfghjkl asdfg
